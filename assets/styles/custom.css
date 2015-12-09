@@ -6,11 +6,28 @@ a {
   font-size: 0.7em;
 }
 
-.container {
+.main-container {
   max-width: 1160px;
   margin: 0 auto;
 }
 
-.header {
+header {
   background-color: #fdfdfa;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+@media only screen and (min-width: 801px) { 
+
+  #content {
+    max-width: 80%;
+  }
+
+  img[src$='#vertical-img'] {
+    width: 60%;
+    margin-left: 20%;
+  }
+
 }
